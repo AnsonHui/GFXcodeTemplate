@@ -1,0 +1,1672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33426C41E658EE100C8C1BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33426C31E658EE100C8C1BA /* Foundation.framework */; };
+		D33426C81E658EE100C8C1BA /* GFSampleModuleCommonBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = D33426C71E658EE100C8C1BA /* GFSampleModuleCommonBundle.h */; };
+		D33426CA1E658EE100C8C1BA /* GFSampleModuleCommonBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = D33426C91E658EE100C8C1BA /* GFSampleModuleCommonBundle.m */; };
+		D33426CC1E658EE100C8C1BA /* GFSampleModuleCommonModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D33426CB1E658EE100C8C1BA /* GFSampleModuleCommonModule.h */; };
+		D33426CE1E658EE100C8C1BA /* GFSampleModuleCommonModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D33426CD1E658EE100C8C1BA /* GFSampleModuleCommonModule.m */; };
+		D33426D01E658EE100C8C1BA /* GFSampleModuleCommonModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = D33426CF1E658EE100C8C1BA /* GFSampleModuleCommonModuleService.h */; };
+		D33426D21E658EE100C8C1BA /* GFSampleModuleCommonModuleService.m in Sources */ = {isa = PBXBuildFile; fileRef = D33426D11E658EE100C8C1BA /* GFSampleModuleCommonModuleService.m */; };
+		D33426E51E658EEF00C8C1BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33426C31E658EE100C8C1BA /* Foundation.framework */; };
+		D33426E91E658EEF00C8C1BA /* GFSampleModulePhoneBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = D33426E81E658EEF00C8C1BA /* GFSampleModulePhoneBundle.h */; };
+		D33426EB1E658EEF00C8C1BA /* GFSampleModulePhoneBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = D33426EA1E658EEF00C8C1BA /* GFSampleModulePhoneBundle.m */; };
+		D33426ED1E658EEF00C8C1BA /* GFSampleModulePhoneModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D33426EC1E658EEF00C8C1BA /* GFSampleModulePhoneModule.h */; };
+		D33426EF1E658EEF00C8C1BA /* GFSampleModulePhoneModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D33426EE1E658EEF00C8C1BA /* GFSampleModulePhoneModule.m */; };
+		D33426F11E658EEF00C8C1BA /* GFSampleModulePhoneModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = D33426F01E658EEF00C8C1BA /* GFSampleModulePhoneModuleService.h */; };
+		D33426F31E658EEF00C8C1BA /* GFSampleModulePhoneModuleService.m in Sources */ = {isa = PBXBuildFile; fileRef = D33426F21E658EEF00C8C1BA /* GFSampleModulePhoneModuleService.m */; };
+		D33427061E658F1500C8C1BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33426C31E658EE100C8C1BA /* Foundation.framework */; };
+		D334270A1E658F1500C8C1BA /* GFSampleModulePadBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = D33427091E658F1500C8C1BA /* GFSampleModulePadBundle.h */; };
+		D334270C1E658F1500C8C1BA /* GFSampleModulePadBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = D334270B1E658F1500C8C1BA /* GFSampleModulePadBundle.m */; };
+		D334270E1E658F1500C8C1BA /* GFSampleModulePadModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D334270D1E658F1500C8C1BA /* GFSampleModulePadModule.h */; };
+		D33427101E658F1500C8C1BA /* GFSampleModulePadModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D334270F1E658F1500C8C1BA /* GFSampleModulePadModule.m */; };
+		D33427121E658F1500C8C1BA /* GFSampleModulePadModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = D33427111E658F1500C8C1BA /* GFSampleModulePadModuleService.h */; };
+		D33427141E658F1500C8C1BA /* GFSampleModulePadModuleService.m in Sources */ = {isa = PBXBuildFile; fileRef = D33427131E658F1500C8C1BA /* GFSampleModulePadModuleService.m */; };
+		D33427291E658F2400C8C1BA /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33427281E658F2400C8C1BA /* Image.xcassets */; };
+		D334272B1E658F2400C8C1BA /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = D334272A1E658F2400C8C1BA /* Audio */; };
+		D334272D1E658F2400C8C1BA /* Video in Resources */ = {isa = PBXBuildFile; fileRef = D334272C1E658F2400C8C1BA /* Video */; };
+		D334273A1E658F3400C8C1BA /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33427391E658F3400C8C1BA /* Image.xcassets */; };
+		D334273C1E658F3400C8C1BA /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = D334273B1E658F3400C8C1BA /* Audio */; };
+		D334273E1E658F3400C8C1BA /* Video in Resources */ = {isa = PBXBuildFile; fileRef = D334273D1E658F3400C8C1BA /* Video */; };
+		D334274B1E658F4200C8C1BA /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D334274A1E658F4200C8C1BA /* Image.xcassets */; };
+		D334274D1E658F4200C8C1BA /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = D334274C1E658F4200C8C1BA /* Audio */; };
+		D334274F1E658F4200C8C1BA /* Video in Resources */ = {isa = PBXBuildFile; fileRef = D334274E1E658F4200C8C1BA /* Video */; };
+		D3E4BA6D1E66B46F0047403C /* Video.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3E4BA6C1E66B46F0047403C /* Video.txt */; };
+		D3E4BA6F1E66B47C0047403C /* Audio.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3E4BA6E1E66B47C0047403C /* Audio.txt */; };
+		D3E4BA711E66B4900047403C /* Video.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3E4BA701E66B4900047403C /* Video.txt */; };
+		D3E4BA731E66B49C0047403C /* Audio.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3E4BA721E66B49C0047403C /* Audio.txt */; };
+		D3E4BA751E66B4B10047403C /* Video.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3E4BA741E66B4B10047403C /* Video.txt */; };
+		D3E4BA771E66B4BF0047403C /* Audio.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3E4BA761E66B4BF0047403C /* Audio.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D33426C01E658EE100C8C1BA /* libSampleModuleCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSampleModuleCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33426C31E658EE100C8C1BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D33426C71E658EE100C8C1BA /* GFSampleModuleCommonBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GFSampleModuleCommonBundle.h; path = Module/GFSampleModuleCommonBundle.h; sourceTree = "<group>"; };
+		D33426C91E658EE100C8C1BA /* GFSampleModuleCommonBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GFSampleModuleCommonBundle.m; path = Module/GFSampleModuleCommonBundle.m; sourceTree = "<group>"; };
+		D33426CB1E658EE100C8C1BA /* GFSampleModuleCommonModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GFSampleModuleCommonModule.h; path = Module/GFSampleModuleCommonModule.h; sourceTree = "<group>"; };
+		D33426CD1E658EE100C8C1BA /* GFSampleModuleCommonModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GFSampleModuleCommonModule.m; path = Module/GFSampleModuleCommonModule.m; sourceTree = "<group>"; };
+		D33426CF1E658EE100C8C1BA /* GFSampleModuleCommonModuleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GFSampleModuleCommonModuleService.h; path = Module/GFSampleModuleCommonModuleService.h; sourceTree = "<group>"; };
+		D33426D11E658EE100C8C1BA /* GFSampleModuleCommonModuleService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GFSampleModuleCommonModuleService.m; path = Module/GFSampleModuleCommonModuleService.m; sourceTree = "<group>"; };
+		D33426E41E658EEF00C8C1BA /* libSampleModulePhone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSampleModulePhone.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33426E81E658EEF00C8C1BA /* GFSampleModulePhoneBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GFSampleModulePhoneBundle.h; path = Module/GFSampleModulePhoneBundle.h; sourceTree = "<group>"; };
+		D33426EA1E658EEF00C8C1BA /* GFSampleModulePhoneBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GFSampleModulePhoneBundle.m; path = Module/GFSampleModulePhoneBundle.m; sourceTree = "<group>"; };
+		D33426EC1E658EEF00C8C1BA /* GFSampleModulePhoneModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GFSampleModulePhoneModule.h; path = Module/GFSampleModulePhoneModule.h; sourceTree = "<group>"; };
+		D33426EE1E658EEF00C8C1BA /* GFSampleModulePhoneModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GFSampleModulePhoneModule.m; path = Module/GFSampleModulePhoneModule.m; sourceTree = "<group>"; };
+		D33426F01E658EEF00C8C1BA /* GFSampleModulePhoneModuleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GFSampleModulePhoneModuleService.h; path = Module/GFSampleModulePhoneModuleService.h; sourceTree = "<group>"; };
+		D33426F21E658EEF00C8C1BA /* GFSampleModulePhoneModuleService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GFSampleModulePhoneModuleService.m; path = Module/GFSampleModulePhoneModuleService.m; sourceTree = "<group>"; };
+		D33427051E658F1500C8C1BA /* libSampleModulePad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSampleModulePad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33427091E658F1500C8C1BA /* GFSampleModulePadBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GFSampleModulePadBundle.h; path = Module/GFSampleModulePadBundle.h; sourceTree = "<group>"; };
+		D334270B1E658F1500C8C1BA /* GFSampleModulePadBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GFSampleModulePadBundle.m; path = Module/GFSampleModulePadBundle.m; sourceTree = "<group>"; };
+		D334270D1E658F1500C8C1BA /* GFSampleModulePadModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GFSampleModulePadModule.h; path = Module/GFSampleModulePadModule.h; sourceTree = "<group>"; };
+		D334270F1E658F1500C8C1BA /* GFSampleModulePadModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GFSampleModulePadModule.m; path = Module/GFSampleModulePadModule.m; sourceTree = "<group>"; };
+		D33427111E658F1500C8C1BA /* GFSampleModulePadModuleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GFSampleModulePadModuleService.h; path = Module/GFSampleModulePadModuleService.h; sourceTree = "<group>"; };
+		D33427131E658F1500C8C1BA /* GFSampleModulePadModuleService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GFSampleModulePadModuleService.m; path = Module/GFSampleModulePadModuleService.m; sourceTree = "<group>"; };
+		D33427251E658F2400C8C1BA /* SampleModuleCommonBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleModuleCommonBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33427281E658F2400C8C1BA /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = Resource/Image.xcassets; sourceTree = "<group>"; };
+		D334272E1E658F2400C8C1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33427361E658F3400C8C1BA /* SampleModulePhoneBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleModulePhoneBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33427391E658F3400C8C1BA /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = Resource/Image.xcassets; sourceTree = "<group>"; };
+		D334273F1E658F3400C8C1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33427471E658F4200C8C1BA /* SampleModulePadBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleModulePadBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D334274A1E658F4200C8C1BA /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = Resource/Image.xcassets; sourceTree = "<group>"; };
+		D33427501E658F4200C8C1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35DF2F11E71639F0085069C /* Controller.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Controller.txt; sourceTree = "<group>"; };
+		D35DF2F31E71639F0085069C /* Model.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Model.txt; sourceTree = "<group>"; };
+		D35DF2F51E71639F0085069C /* Service.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Service.txt; sourceTree = "<group>"; };
+		D35DF2F71E71639F0085069C /* View.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = View.txt; sourceTree = "<group>"; };
+		D35DF2FA1E7163E50085069C /* Controller.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Controller.txt; sourceTree = "<group>"; };
+		D35DF2FC1E7163E50085069C /* Model.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Model.txt; sourceTree = "<group>"; };
+		D35DF2FE1E7163E50085069C /* Service.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Service.txt; sourceTree = "<group>"; };
+		D35DF3001E7163E50085069C /* View.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = View.txt; sourceTree = "<group>"; };
+		D35DF3031E7163FB0085069C /* Controller.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Controller.txt; sourceTree = "<group>"; };
+		D35DF3051E7163FB0085069C /* Model.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Model.txt; sourceTree = "<group>"; };
+		D35DF3071E7163FB0085069C /* Service.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Service.txt; sourceTree = "<group>"; };
+		D35DF3091E7163FB0085069C /* View.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = View.txt; sourceTree = "<group>"; };
+		D3E4BA5A1E66B2D00047403C /* Kits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kits.txt; sourceTree = "<group>"; };
+		D3E4BA5B1E66B3040047403C /* Defination.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Defination.txt; sourceTree = "<group>"; };
+		D3E4BA601E66B3B50047403C /* Kits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kits.txt; sourceTree = "<group>"; };
+		D3E4BA611E66B3C50047403C /* Defination.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Defination.txt; sourceTree = "<group>"; };
+		D3E4BA661E66B4050047403C /* Kits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kits.txt; sourceTree = "<group>"; };
+		D3E4BA671E66B4190047403C /* Defination.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Defination.txt; sourceTree = "<group>"; };
+		D3E4BA6C1E66B46F0047403C /* Video.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Video.txt; sourceTree = "<group>"; };
+		D3E4BA6E1E66B47C0047403C /* Audio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Audio.txt; sourceTree = "<group>"; };
+		D3E4BA701E66B4900047403C /* Video.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Video.txt; sourceTree = "<group>"; };
+		D3E4BA721E66B49C0047403C /* Audio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Audio.txt; sourceTree = "<group>"; };
+		D3E4BA741E66B4B10047403C /* Video.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Video.txt; sourceTree = "<group>"; };
+		D3E4BA761E66B4BF0047403C /* Audio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Audio.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D33426BD1E658EE100C8C1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33426C41E658EE100C8C1BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33426E11E658EEF00C8C1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33426E51E658EEF00C8C1BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427021E658F1500C8C1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33427061E658F1500C8C1BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427221E658F2400C8C1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427331E658F3400C8C1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427441E658F4200C8C1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D33426B41E658EC100C8C1BA = {
+			isa = PBXGroup;
+			children = (
+				D33426C51E658EE100C8C1BA /* SampleModuleCommon */,
+				D33426E61E658EEF00C8C1BA /* SampleModulePhone */,
+				D33427071E658F1500C8C1BA /* SampleModulePad */,
+				D33427261E658F2400C8C1BA /* SampleModuleCommonBundle */,
+				D33427371E658F3400C8C1BA /* SampleModulePhoneBundle */,
+				D33427481E658F4200C8C1BA /* SampleModulePadBundle */,
+				D33426C21E658EE100C8C1BA /* Frameworks */,
+				D33426C11E658EE100C8C1BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D33426C11E658EE100C8C1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D33426C01E658EE100C8C1BA /* libSampleModuleCommon.a */,
+				D33426E41E658EEF00C8C1BA /* libSampleModulePhone.a */,
+				D33427051E658F1500C8C1BA /* libSampleModulePad.a */,
+				D33427251E658F2400C8C1BA /* SampleModuleCommonBundle.bundle */,
+				D33427361E658F3400C8C1BA /* SampleModulePhoneBundle.bundle */,
+				D33427471E658F4200C8C1BA /* SampleModulePadBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33426C21E658EE100C8C1BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D33426C31E658EE100C8C1BA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33426C51E658EE100C8C1BA /* SampleModuleCommon */ = {
+			isa = PBXGroup;
+			children = (
+				D33426C61E658EE100C8C1BA /* Module */,
+				D33426D31E658EE100C8C1BA /* Common */,
+				D33426D61E658EE100C8C1BA /* Feature */,
+			);
+			path = SampleModuleCommon;
+			sourceTree = "<group>";
+		};
+		D33426C61E658EE100C8C1BA /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				D33426C71E658EE100C8C1BA /* GFSampleModuleCommonBundle.h */,
+				D33426C91E658EE100C8C1BA /* GFSampleModuleCommonBundle.m */,
+				D33426CB1E658EE100C8C1BA /* GFSampleModuleCommonModule.h */,
+				D33426CD1E658EE100C8C1BA /* GFSampleModuleCommonModule.m */,
+				D33426CF1E658EE100C8C1BA /* GFSampleModuleCommonModuleService.h */,
+				D33426D11E658EE100C8C1BA /* GFSampleModuleCommonModuleService.m */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		D33426D31E658EE100C8C1BA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D33426D51E658EE100C8C1BA /* Kits */,
+				D33426D41E658EE100C8C1BA /* Defination */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D33426D41E658EE100C8C1BA /* Defination */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA5B1E66B3040047403C /* Defination.txt */,
+			);
+			name = Defination;
+			path = Common/Defination;
+			sourceTree = "<group>";
+		};
+		D33426D51E658EE100C8C1BA /* Kits */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA5A1E66B2D00047403C /* Kits.txt */,
+			);
+			name = Kits;
+			path = Common/Kits;
+			sourceTree = "<group>";
+		};
+		D33426D61E658EE100C8C1BA /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2EF1E71639F0085069C /* SampleFeature */,
+			);
+			name = Feature;
+			sourceTree = "<group>";
+		};
+		D33426E61E658EEF00C8C1BA /* SampleModulePhone */ = {
+			isa = PBXGroup;
+			children = (
+				D33426E71E658EEF00C8C1BA /* Module */,
+				D33426F41E658EEF00C8C1BA /* Common */,
+				D33426F71E658EEF00C8C1BA /* Feature */,
+			);
+			path = SampleModulePhone;
+			sourceTree = "<group>";
+		};
+		D33426E71E658EEF00C8C1BA /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				D33426E81E658EEF00C8C1BA /* GFSampleModulePhoneBundle.h */,
+				D33426EA1E658EEF00C8C1BA /* GFSampleModulePhoneBundle.m */,
+				D33426EC1E658EEF00C8C1BA /* GFSampleModulePhoneModule.h */,
+				D33426EE1E658EEF00C8C1BA /* GFSampleModulePhoneModule.m */,
+				D33426F01E658EEF00C8C1BA /* GFSampleModulePhoneModuleService.h */,
+				D33426F21E658EEF00C8C1BA /* GFSampleModulePhoneModuleService.m */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		D33426F41E658EEF00C8C1BA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D33426F61E658EEF00C8C1BA /* Kits */,
+				D33426F51E658EEF00C8C1BA /* Defination */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D33426F51E658EEF00C8C1BA /* Defination */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA611E66B3C50047403C /* Defination.txt */,
+			);
+			name = Defination;
+			path = Common/Defination;
+			sourceTree = "<group>";
+		};
+		D33426F61E658EEF00C8C1BA /* Kits */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA601E66B3B50047403C /* Kits.txt */,
+			);
+			name = Kits;
+			path = Common/Kits;
+			sourceTree = "<group>";
+		};
+		D33426F71E658EEF00C8C1BA /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF3011E7163FB0085069C /* SampleFeature */,
+			);
+			name = Feature;
+			sourceTree = "<group>";
+		};
+		D33427071E658F1500C8C1BA /* SampleModulePad */ = {
+			isa = PBXGroup;
+			children = (
+				D33427081E658F1500C8C1BA /* Module */,
+				D33427151E658F1500C8C1BA /* Common */,
+				D33427181E658F1500C8C1BA /* Feature */,
+			);
+			path = SampleModulePad;
+			sourceTree = "<group>";
+		};
+		D33427081E658F1500C8C1BA /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				D33427091E658F1500C8C1BA /* GFSampleModulePadBundle.h */,
+				D334270B1E658F1500C8C1BA /* GFSampleModulePadBundle.m */,
+				D334270D1E658F1500C8C1BA /* GFSampleModulePadModule.h */,
+				D334270F1E658F1500C8C1BA /* GFSampleModulePadModule.m */,
+				D33427111E658F1500C8C1BA /* GFSampleModulePadModuleService.h */,
+				D33427131E658F1500C8C1BA /* GFSampleModulePadModuleService.m */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		D33427151E658F1500C8C1BA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D33427171E658F1500C8C1BA /* Kits */,
+				D33427161E658F1500C8C1BA /* Defination */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D33427161E658F1500C8C1BA /* Defination */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA671E66B4190047403C /* Defination.txt */,
+			);
+			name = Defination;
+			path = Common/Defination;
+			sourceTree = "<group>";
+		};
+		D33427171E658F1500C8C1BA /* Kits */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA661E66B4050047403C /* Kits.txt */,
+			);
+			name = Kits;
+			path = Common/Kits;
+			sourceTree = "<group>";
+		};
+		D33427181E658F1500C8C1BA /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2F81E7163E50085069C /* SampleFeature */,
+			);
+			name = Feature;
+			sourceTree = "<group>";
+		};
+		D33427261E658F2400C8C1BA /* SampleModuleCommonBundle */ = {
+			isa = PBXGroup;
+			children = (
+				D334272E1E658F2400C8C1BA /* Info.plist */,
+				D33427271E658F2400C8C1BA /* Resource */,
+			);
+			path = SampleModuleCommonBundle;
+			sourceTree = "<group>";
+		};
+		D33427271E658F2400C8C1BA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D33427281E658F2400C8C1BA /* Image.xcassets */,
+				D334272C1E658F2400C8C1BA /* Video */,
+				D334272A1E658F2400C8C1BA /* Audio */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		D334272A1E658F2400C8C1BA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA6E1E66B47C0047403C /* Audio.txt */,
+			);
+			name = Audio;
+			path = Resource/Audio;
+			sourceTree = "<group>";
+		};
+		D334272C1E658F2400C8C1BA /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA6C1E66B46F0047403C /* Video.txt */,
+			);
+			name = Video;
+			path = Resource/Video;
+			sourceTree = "<group>";
+		};
+		D33427371E658F3400C8C1BA /* SampleModulePhoneBundle */ = {
+			isa = PBXGroup;
+			children = (
+				D334273F1E658F3400C8C1BA /* Info.plist */,
+				D33427381E658F3400C8C1BA /* Resource */,
+			);
+			path = SampleModulePhoneBundle;
+			sourceTree = "<group>";
+		};
+		D33427381E658F3400C8C1BA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D33427391E658F3400C8C1BA /* Image.xcassets */,
+				D334273D1E658F3400C8C1BA /* Video */,
+				D334273B1E658F3400C8C1BA /* Audio */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		D334273B1E658F3400C8C1BA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA721E66B49C0047403C /* Audio.txt */,
+			);
+			name = Audio;
+			path = Resource/Audio;
+			sourceTree = "<group>";
+		};
+		D334273D1E658F3400C8C1BA /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA701E66B4900047403C /* Video.txt */,
+			);
+			name = Video;
+			path = Resource/Video;
+			sourceTree = "<group>";
+		};
+		D33427481E658F4200C8C1BA /* SampleModulePadBundle */ = {
+			isa = PBXGroup;
+			children = (
+				D33427501E658F4200C8C1BA /* Info.plist */,
+				D33427491E658F4200C8C1BA /* Resource */,
+			);
+			path = SampleModulePadBundle;
+			sourceTree = "<group>";
+		};
+		D33427491E658F4200C8C1BA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D334274A1E658F4200C8C1BA /* Image.xcassets */,
+				D334274E1E658F4200C8C1BA /* Video */,
+				D334274C1E658F4200C8C1BA /* Audio */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		D334274C1E658F4200C8C1BA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA761E66B4BF0047403C /* Audio.txt */,
+			);
+			name = Audio;
+			path = Resource/Audio;
+			sourceTree = "<group>";
+		};
+		D334274E1E658F4200C8C1BA /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4BA741E66B4B10047403C /* Video.txt */,
+			);
+			name = Video;
+			path = Resource/Video;
+			sourceTree = "<group>";
+		};
+		D35DF2EF1E71639F0085069C /* SampleFeature */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2F01E71639F0085069C /* Controller */,
+				D35DF2F21E71639F0085069C /* Model */,
+				D35DF2F41E71639F0085069C /* Service */,
+				D35DF2F61E71639F0085069C /* View */,
+			);
+			name = SampleFeature;
+			path = Feature/SampleFeature;
+			sourceTree = "<group>";
+		};
+		D35DF2F01E71639F0085069C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2F11E71639F0085069C /* Controller.txt */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D35DF2F21E71639F0085069C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2F31E71639F0085069C /* Model.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D35DF2F41E71639F0085069C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2F51E71639F0085069C /* Service.txt */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D35DF2F61E71639F0085069C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2F71E71639F0085069C /* View.txt */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D35DF2F81E7163E50085069C /* SampleFeature */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2F91E7163E50085069C /* Controller */,
+				D35DF2FB1E7163E50085069C /* Model */,
+				D35DF2FD1E7163E50085069C /* Service */,
+				D35DF2FF1E7163E50085069C /* View */,
+			);
+			name = SampleFeature;
+			path = Feature/SampleFeature;
+			sourceTree = "<group>";
+		};
+		D35DF2F91E7163E50085069C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2FA1E7163E50085069C /* Controller.txt */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D35DF2FB1E7163E50085069C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2FC1E7163E50085069C /* Model.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D35DF2FD1E7163E50085069C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF2FE1E7163E50085069C /* Service.txt */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D35DF2FF1E7163E50085069C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF3001E7163E50085069C /* View.txt */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D35DF3011E7163FB0085069C /* SampleFeature */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF3021E7163FB0085069C /* Controller */,
+				D35DF3041E7163FB0085069C /* Model */,
+				D35DF3061E7163FB0085069C /* Service */,
+				D35DF3081E7163FB0085069C /* View */,
+			);
+			name = SampleFeature;
+			path = Feature/SampleFeature;
+			sourceTree = "<group>";
+		};
+		D35DF3021E7163FB0085069C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF3031E7163FB0085069C /* Controller.txt */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D35DF3041E7163FB0085069C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF3051E7163FB0085069C /* Model.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D35DF3061E7163FB0085069C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF3071E7163FB0085069C /* Service.txt */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D35DF3081E7163FB0085069C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D35DF3091E7163FB0085069C /* View.txt */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D33426BE1E658EE100C8C1BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33426CC1E658EE100C8C1BA /* GFSampleModuleCommonModule.h in Headers */,
+				D33426C81E658EE100C8C1BA /* GFSampleModuleCommonBundle.h in Headers */,
+				D33426D01E658EE100C8C1BA /* GFSampleModuleCommonModuleService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33426E21E658EEF00C8C1BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33426ED1E658EEF00C8C1BA /* GFSampleModulePhoneModule.h in Headers */,
+				D33426F11E658EEF00C8C1BA /* GFSampleModulePhoneModuleService.h in Headers */,
+				D33426E91E658EEF00C8C1BA /* GFSampleModulePhoneBundle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427031E658F1500C8C1BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33427121E658F1500C8C1BA /* GFSampleModulePadModuleService.h in Headers */,
+				D334270A1E658F1500C8C1BA /* GFSampleModulePadBundle.h in Headers */,
+				D334270E1E658F1500C8C1BA /* GFSampleModulePadModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D33426BF1E658EE100C8C1BA /* SampleModuleCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33426DC1E658EE100C8C1BA /* Build configuration list for PBXNativeTarget "SampleModuleCommon" */;
+			buildPhases = (
+				D33426BB1E658EE100C8C1BA /* ShellScript */,
+				D33426BC1E658EE100C8C1BA /* Sources */,
+				D33426BD1E658EE100C8C1BA /* Frameworks */,
+				D33426BE1E658EE100C8C1BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleModuleCommon;
+			productName = SampleModuleCommon;
+			productReference = D33426C01E658EE100C8C1BA /* libSampleModuleCommon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D33426E31E658EEF00C8C1BA /* SampleModulePhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33426FD1E658EEF00C8C1BA /* Build configuration list for PBXNativeTarget "SampleModulePhone" */;
+			buildPhases = (
+				D33426DF1E658EEF00C8C1BA /* ShellScript */,
+				D33426E01E658EEF00C8C1BA /* Sources */,
+				D33426E11E658EEF00C8C1BA /* Frameworks */,
+				D33426E21E658EEF00C8C1BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleModulePhone;
+			productName = SampleModulePhone;
+			productReference = D33426E41E658EEF00C8C1BA /* libSampleModulePhone.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D33427041E658F1500C8C1BA /* SampleModulePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D334271E1E658F1500C8C1BA /* Build configuration list for PBXNativeTarget "SampleModulePad" */;
+			buildPhases = (
+				D33427001E658F1500C8C1BA /* ShellScript */,
+				D33427011E658F1500C8C1BA /* Sources */,
+				D33427021E658F1500C8C1BA /* Frameworks */,
+				D33427031E658F1500C8C1BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleModulePad;
+			productName = SampleModulePad;
+			productReference = D33427051E658F1500C8C1BA /* libSampleModulePad.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D33427241E658F2400C8C1BA /* SampleModuleCommonBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D334272F1E658F2400C8C1BA /* Build configuration list for PBXNativeTarget "SampleModuleCommonBundle" */;
+			buildPhases = (
+				D33427211E658F2400C8C1BA /* Sources */,
+				D33427221E658F2400C8C1BA /* Frameworks */,
+				D33427231E658F2400C8C1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleModuleCommonBundle;
+			productName = SampleModuleCommonBundle;
+			productReference = D33427251E658F2400C8C1BA /* SampleModuleCommonBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D33427351E658F3400C8C1BA /* SampleModulePhoneBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33427401E658F3400C8C1BA /* Build configuration list for PBXNativeTarget "SampleModulePhoneBundle" */;
+			buildPhases = (
+				D33427321E658F3400C8C1BA /* Sources */,
+				D33427331E658F3400C8C1BA /* Frameworks */,
+				D33427341E658F3400C8C1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleModulePhoneBundle;
+			productName = SampleModulePhoneBundle;
+			productReference = D33427361E658F3400C8C1BA /* SampleModulePhoneBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D33427461E658F4200C8C1BA /* SampleModulePadBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33427511E658F4200C8C1BA /* Build configuration list for PBXNativeTarget "SampleModulePadBundle" */;
+			buildPhases = (
+				D33427431E658F4200C8C1BA /* Sources */,
+				D33427441E658F4200C8C1BA /* Frameworks */,
+				D33427451E658F4200C8C1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleModulePadBundle;
+			productName = SampleModulePadBundle;
+			productReference = D33427471E658F4200C8C1BA /* SampleModulePadBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33426B51E658EC100C8C1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					D33426BF1E658EE100C8C1BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RNG6JK98J6;
+						ProvisioningStyle = Automatic;
+					};
+					D33426E31E658EEF00C8C1BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RNG6JK98J6;
+						ProvisioningStyle = Automatic;
+					};
+					D33427041E658F1500C8C1BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RNG6JK98J6;
+						ProvisioningStyle = Automatic;
+					};
+					D33427241E658F2400C8C1BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RNG6JK98J6;
+						ProvisioningStyle = Automatic;
+					};
+					D33427351E658F3400C8C1BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RNG6JK98J6;
+						ProvisioningStyle = Automatic;
+					};
+					D33427461E658F4200C8C1BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RNG6JK98J6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D33426B81E658EC100C8C1BA /* Build configuration list for PBXProject "GFSampleModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D33426B41E658EC100C8C1BA;
+			productRefGroup = D33426C11E658EE100C8C1BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D33426BF1E658EE100C8C1BA /* SampleModuleCommon */,
+				D33426E31E658EEF00C8C1BA /* SampleModulePhone */,
+				D33427041E658F1500C8C1BA /* SampleModulePad */,
+				D33427241E658F2400C8C1BA /* SampleModuleCommonBundle */,
+				D33427351E658F3400C8C1BA /* SampleModulePhoneBundle */,
+				D33427461E658F4200C8C1BA /* SampleModulePadBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D33427231E658F2400C8C1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D334272D1E658F2400C8C1BA /* Video in Resources */,
+				D33427291E658F2400C8C1BA /* Image.xcassets in Resources */,
+				D3E4BA6D1E66B46F0047403C /* Video.txt in Resources */,
+				D3E4BA6F1E66B47C0047403C /* Audio.txt in Resources */,
+				D334272B1E658F2400C8C1BA /* Audio in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427341E658F3400C8C1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D334273E1E658F3400C8C1BA /* Video in Resources */,
+				D334273A1E658F3400C8C1BA /* Image.xcassets in Resources */,
+				D3E4BA711E66B4900047403C /* Video.txt in Resources */,
+				D3E4BA731E66B49C0047403C /* Audio.txt in Resources */,
+				D334273C1E658F3400C8C1BA /* Audio in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427451E658F4200C8C1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D334274F1E658F4200C8C1BA /* Video in Resources */,
+				D334274B1E658F4200C8C1BA /* Image.xcassets in Resources */,
+				D3E4BA751E66B4B10047403C /* Video.txt in Resources */,
+				D3E4BA771E66B4BF0047403C /* Audio.txt in Resources */,
+				D334274D1E658F4200C8C1BA /* Audio in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D33426BB1E658EE100C8C1BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/ruby;
+			shellScript = "\n# encoding: utf-8\nEncoding.default_external = \"utf-8\"\nfilename = \"../GFCommon/I18n/auto_add_i18n_warning.rb\"\nproc = Proc.new {}\neval(File.read(filename), proc.binding, filename)";
+			showEnvVarsInLog = 0;
+		};
+		D33426DF1E658EEF00C8C1BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/ruby;
+			shellScript = "\n# encoding: utf-8\nEncoding.default_external = \"utf-8\"\nfilename = \"../GFCommon/I18n/auto_add_i18n_warning.rb\"\nproc = Proc.new {}\neval(File.read(filename), proc.binding, filename)";
+			showEnvVarsInLog = 0;
+		};
+		D33427001E658F1500C8C1BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/ruby;
+			shellScript = "\n# encoding: utf-8\nEncoding.default_external = \"utf-8\"\nfilename = \"../GFCommon/I18n/auto_add_i18n_warning.rb\"\nproc = Proc.new {}\neval(File.read(filename), proc.binding, filename)";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D33426BC1E658EE100C8C1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33426D21E658EE100C8C1BA /* GFSampleModuleCommonModuleService.m in Sources */,
+				D33426CA1E658EE100C8C1BA /* GFSampleModuleCommonBundle.m in Sources */,
+				D33426CE1E658EE100C8C1BA /* GFSampleModuleCommonModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33426E01E658EEF00C8C1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33426EB1E658EEF00C8C1BA /* GFSampleModulePhoneBundle.m in Sources */,
+				D33426F31E658EEF00C8C1BA /* GFSampleModulePhoneModuleService.m in Sources */,
+				D33426EF1E658EEF00C8C1BA /* GFSampleModulePhoneModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427011E658F1500C8C1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33427141E658F1500C8C1BA /* GFSampleModulePadModuleService.m in Sources */,
+				D33427101E658F1500C8C1BA /* GFSampleModulePadModule.m in Sources */,
+				D334270C1E658F1500C8C1BA /* GFSampleModulePadBundle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427211E658F2400C8C1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427321E658F3400C8C1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33427431E658F4200C8C1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D33426B91E658EC100C8C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}/../GFCommon/\"/**",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D33426BA1E658EC100C8C1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}/../GFCommon/\"/**",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		D33426DD1E658EE100C8C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleModuleCommon/Common/Defination/SampleModuleCommon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${SRCROOT}/../GFCommon/\"/**",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Wno-documentation",
+					"-Wno-nullability-completeness",
+				);
+			};
+			name = Debug;
+		};
+		D33426DE1E658EE100C8C1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleModuleCommon/Common/Defination/SampleModuleCommon-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${SRCROOT}/../GFCommon/\"/**",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Wno-documentation",
+					"-Wno-nullability-completeness",
+				);
+			};
+			name = Release;
+		};
+		D33426FE1E658EEF00C8C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleModulePhone/Common/Defination/SampleModulePhone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${SRCROOT}/../GFCommon/\"/**",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Wno-documentation",
+					"-Wno-nullability-completeness",
+				);
+			};
+			name = Debug;
+		};
+		D33426FF1E658EEF00C8C1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleModulePhone/Common/Defination/SampleModulePhone-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${SRCROOT}/../GFCommon/\"/**",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Wno-documentation",
+					"-Wno-nullability-completeness",
+				);
+			};
+			name = Release;
+		};
+		D334271F1E658F1500C8C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleModulePad/Common/Defination/SampleModulePad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${SRCROOT}/../GFCommon/\"/**",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Wno-documentation",
+					"-Wno-nullability-completeness",
+				);
+			};
+			name = Debug;
+		};
+		D33427201E658F1500C8C1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleModulePad/Common/Defination/SampleModulePad-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${SRCROOT}/../GFCommon/\"/**",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Wno-documentation",
+					"-Wno-nullability-completeness",
+				);
+			};
+			name = Release;
+		};
+		D33427301E658F2400C8C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SampleModuleCommonBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.SampleModuleCommonBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D33427311E658F2400C8C1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SampleModuleCommonBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.SampleModuleCommonBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D33427411E658F3400C8C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SampleModulePhoneBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.SampleModulePhoneBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D33427421E658F3400C8C1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SampleModulePhoneBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.SampleModulePhoneBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D33427521E658F4200C8C1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SampleModulePadBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.SampleModulePadBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D33427531E658F4200C8C1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RNG6JK98J6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SampleModulePadBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gf.SampleModulePadBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33426B81E658EC100C8C1BA /* Build configuration list for PBXProject "GFSampleModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33426B91E658EC100C8C1BA /* Debug */,
+				D33426BA1E658EC100C8C1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33426DC1E658EE100C8C1BA /* Build configuration list for PBXNativeTarget "SampleModuleCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33426DD1E658EE100C8C1BA /* Debug */,
+				D33426DE1E658EE100C8C1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33426FD1E658EEF00C8C1BA /* Build configuration list for PBXNativeTarget "SampleModulePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33426FE1E658EEF00C8C1BA /* Debug */,
+				D33426FF1E658EEF00C8C1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D334271E1E658F1500C8C1BA /* Build configuration list for PBXNativeTarget "SampleModulePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D334271F1E658F1500C8C1BA /* Debug */,
+				D33427201E658F1500C8C1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D334272F1E658F2400C8C1BA /* Build configuration list for PBXNativeTarget "SampleModuleCommonBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33427301E658F2400C8C1BA /* Debug */,
+				D33427311E658F2400C8C1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33427401E658F3400C8C1BA /* Build configuration list for PBXNativeTarget "SampleModulePhoneBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33427411E658F3400C8C1BA /* Debug */,
+				D33427421E658F3400C8C1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33427511E658F4200C8C1BA /* Build configuration list for PBXNativeTarget "SampleModulePadBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33427521E658F4200C8C1BA /* Debug */,
+				D33427531E658F4200C8C1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D33426B51E658EC100C8C1BA /* Project object */;
+}
